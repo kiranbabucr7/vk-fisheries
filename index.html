@@ -2,20 +2,50 @@
 <html lang="en">
 
 <head>
-  <!-- Basic Meta -->
+  <!-- ================= BASIC META ================= -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>VK Fisheries – Simple Fish Farming Support</title>
 
-  <!-- Tailwind CSS CDN -->
+  <!-- ================= SEO META TAGS ================= -->
+  <meta name="description"
+    content="VK Fisheries helps farmers and landowners start fish farming on their own land. We provide pond setup guidance, fish seed support, maintenance advice, and direct fish harvest collection." />
+
+  <meta name="keywords"
+    content="VK Fisheries, fish farming, fisheries support, aquaculture farming, fish cultivation, pond fish farming, rural fisheries, fish harvesting services" />
+
+  <meta name="author" content="VK Fisheries" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- ================= OPEN GRAPH (WhatsApp / Facebook) ================= -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="VK Fisheries – Simple & Profitable Fish Farming Support" />
+  <meta property="og:description"
+    content="Start fish farming on your own land with guidance and harvest support from VK Fisheries. Simple, honest, and farmer-friendly fisheries services." />
+  <meta property="og:image" content="./assets/main-bg.png" />
+  <meta property="og:url" content="https://www.vkfisheries.com" />
+  <meta property="og:site_name" content="VK Fisheries" />
+
+  <!-- ================= TWITTER CARD ================= -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="VK Fisheries – Fish Farming Made Simple" />
+  <meta name="twitter:description"
+    content="Helping farmers earn through fish farming with step-by-step guidance and direct harvest collection." />
+  <meta name="twitter:image" content="./assets/main-bg.png" />
+
+  <!-- ================= THEME ================= -->
+  <meta name="theme-color" content="#15803d" />
+
+  <!-- ================= TAILWIND CSS ================= -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Smooth scrolling for single-page navigation -->
+  <!-- Smooth scrolling -->
   <style>
     html {
       scroll-behavior: smooth;
     }
   </style>
+
   <link rel="stylesheet" href="index.css">
 </head>
 
@@ -26,27 +56,23 @@
   <!-- ================================================= -->
   <header class="relative min-h-screen bg-cover bg-center bg-no-repeat"
     style="background-image: url('./assets/main-bg.png');">
-    <!-- Soft overlay for readability -->
-    <div class="absolute inset-0 bg-black/50"></div>
 
-    <!-- Content -->
+    <div class="absolute inset-0 bg-black/25"></div>
+
     <div class="relative max-w-7xl mx-auto px-6 py-28">
       <div class="max-w-2xl text-white">
 
-        <!-- Main Headline -->
         <h1 class="text-4xl md:text-5xl font-bold leading-tight">
           Earn From Fish Farming with VK Fisheries <br class="hidden sm:block" />
           On Your Own Land
         </h1>
 
-        <!-- Supporting Description -->
         <p class="mt-6 text-lg text-white/90">
           VK Fisheries helps farmers and landowners start fish farming in a simple
           and safe way. From pond preparation to fish harvesting, we guide you at
           every step and collect the fish directly from your land.
         </p>
 
-        <!-- Value Points -->
         <ul class="mt-6 space-y-2 text-white/90">
           <li>✔ Step-by-step guidance for beginners</li>
           <li>✔ Support in choosing and managing fish seed</li>
@@ -54,7 +80,6 @@
           <li>✔ Professional harvesting and direct collection</li>
         </ul>
 
-        <!-- Reassurance Line -->
         <p class="mt-6 font-medium text-white">
           No confusion. No stress. Just simple and honest farming support.
         </p>
@@ -62,21 +87,20 @@
         <!-- CTA Buttons -->
         <div class="mt-8 flex flex-col sm:flex-row gap-4 sm:items-center">
 
-          <!-- Primary WhatsApp CTA -->
-          <a href="https://wa.me/916238434920?text=I%20would%20like%20to%20know%20more%20about%20VK%20Fisheries" target="_blank"
+          <a href="https://wa.me/916238434920?text=I%20would%20like%20to%20know%20more%20about%20VK%20Fisheries"
+            target="_blank" aria-label="Contact VK Fisheries on WhatsApp"
             class="w-full sm:w-auto inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-4 rounded-lg shadow-xl transition">
             💬 Contact Us on WhatsApp
           </a>
 
-          <!-- Secondary WhatsApp CTA -->
           <a href="https://wa.me/919947920859?text=I%20would%20like%20to%20know%20more%20about%20VK%20Fisheries"
-            target="_blank"
+            target="_blank" aria-label="Ask questions about VK Fisheries on WhatsApp"
             class="w-full sm:w-auto inline-flex items-center justify-center border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white hover:text-green-700 transition">
             ❓ Ask Your Questions
           </a>
 
         </div>
-        <!-- Secondary Trust Line -->
+
         <p class="mt-4 text-sm text-white/80">
           Talk to us today. We will explain everything clearly before you decide.
         </p>
@@ -84,7 +108,6 @@
       </div>
     </div>
   </header>
-
 
   <!-- ================================================= -->
   <!-- PHOTO LIBRARY SECTION -->
@@ -100,32 +123,18 @@
         A glimpse of ponds, fish growth, harvesting, and real farming work.
       </p>
 
-      <!-- Image Grid -->
-      <div class="mt-10 grid grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6">
 
-        <!-- Image Placeholder -->
-        <div class="h-40 bg-slate-300 rounded-lg flex items-center justify-center text-slate-600">
-          Image Placeholder
+        <!-- Image 1 -->
+        <div class="aspect-square rounded-lg overflow-hidden">
+          <img src="./assets/img1.jpeg" alt="Fish farming pond supported by VK Fisheries"
+            class="w-full h-full object-cover" loading="lazy" />
         </div>
 
-        <div class="h-40 bg-slate-300 rounded-lg flex items-center justify-center text-slate-600">
-          Image Placeholder
-        </div>
-
-        <div class="h-40 bg-slate-300 rounded-lg flex items-center justify-center text-slate-600">
-          Image Placeholder
-        </div>
-
-        <div class="h-40 bg-slate-300 rounded-lg flex items-center justify-center text-slate-600">
-          Image Placeholder
-        </div>
-
-        <div class="h-40 bg-slate-300 rounded-lg flex items-center justify-center text-slate-600">
-          Image Placeholder
-        </div>
-
-        <div class="h-40 bg-slate-300 rounded-lg flex items-center justify-center text-slate-600">
-          Image Placeholder
+        <!-- Image 2 -->
+        <div class="aspect-square rounded-lg overflow-hidden">
+          <img src="./assets/img2.jpeg" alt="Fish harvesting and fisheries support by VK Fisheries"
+            class="w-full h-full object-cover" loading="lazy" />
         </div>
 
       </div>
@@ -135,27 +144,56 @@
   <!-- ================================================= -->
   <!-- VIDEO SECTION -->
   <!-- ================================================= -->
-  <section class="bg-white">
-    <div class="max-w-7xl mx-auto px-6 py-16">
+  <section class="relative bg-cover bg-center" style="background-image: url('./assets/b2.png');">
 
-      <h2 class="text-3xl font-bold text-slate-900 text-center">
+    <div class="absolute inset-0 bg-black/35"></div>
+
+    <div class="relative max-w-7xl mx-auto px-6 py-16">
+
+      <h2 class="text-3xl font-bold text-white text-center">
         Watch How It Works
       </h2>
 
-      <p class="mt-4 text-center text-slate-600 max-w-2xl mx-auto">
+      <p class="mt-4 text-center text-white/90 max-w-2xl mx-auto">
         Simple videos explaining our process and fish farming support.
       </p>
 
-      <!-- Video Grid -->
-      <div class="mt-10 grid md:grid-cols-2 gap-8">
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-        <!-- Video Placeholder -->
-        <div class="aspect-video bg-slate-300 rounded-xl flex items-center justify-center text-slate-600">
-          Video Placeholder
+        <div class="aspect-video rounded-xl overflow-hidden bg-black shadow-lg">
+          <video class="w-full h-full object-cover" controls preload="metadata" poster="./assets/t1.png">
+            <source src="./assets/v1.mp4" type="video/mp4" />
+          </video>
         </div>
 
-        <div class="aspect-video bg-slate-300 rounded-xl flex items-center justify-center text-slate-600">
-          Video Placeholder
+        <div class="aspect-video rounded-xl overflow-hidden bg-black shadow-lg">
+          <video class="w-full h-full object-cover" controls preload="metadata" poster="./assets/t2.png">
+            <source src="./assets/v2.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="aspect-video rounded-xl overflow-hidden bg-black shadow-lg">
+          <video class="w-full h-full object-cover" controls preload="none" poster="./assets/t3.png">
+            <source src="./assets/v3.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="aspect-video rounded-xl overflow-hidden bg-black shadow-lg">
+          <video class="w-full h-full object-cover" controls preload="none" poster="./assets/t4.png">
+            <source src="./assets/v4.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="aspect-video rounded-xl overflow-hidden bg-black shadow-lg">
+          <video class="w-full h-full object-cover" controls preload="none" poster="./assets/t5.png">
+            <source src="./assets/v5.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="aspect-video rounded-xl overflow-hidden bg-black shadow-lg">
+          <video class="w-full h-full object-cover" controls preload="none" poster="./assets/t6.png">
+            <source src="./assets/v6.mp4" type="video/mp4" />
+          </video>
         </div>
 
       </div>
@@ -198,7 +236,7 @@
   </section>
 
   <!-- ================================================= -->
-  <!-- FINAL CALL TO ACTION SECTION -->
+  <!-- FINAL CTA -->
   <!-- ================================================= -->
   <section class="bg-green-700 text-white">
     <div class="max-w-6xl mx-auto px-6 py-20 text-center">
@@ -212,7 +250,6 @@
         and guide you step by step.
       </p>
 
-      <!-- Strong WhatsApp CTA -->
       <a href="https://wa.me/916238434920" target="_blank"
         class="inline-block mt-10 bg-white text-green-700 font-bold px-10 py-4 rounded-lg shadow-xl hover:bg-green-50 transition">
         💬 Message VK Fisheries on WhatsApp
